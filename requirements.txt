@@ -1,0 +1,7 @@
+crewai
+crewai_tools
+fastapi
+langchain_community
+langchain_core
+langchain_google_community
+pydantic
