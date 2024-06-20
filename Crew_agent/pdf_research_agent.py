@@ -33,7 +33,7 @@ from crewai_tools import PDFSearchTool
 #     )
 # )
 # print(PDF_tool)
-PDF_tool = PDFSearchTool(pdf='/home/pranjal/Desktop/crewai/transformer.pdf')
+PDF_tool = PDFSearchTool(pdf='transformer.pdf')
 
 def pdf_reasercher(research):
     researcher = Agent(

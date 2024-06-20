@@ -7,7 +7,7 @@ def crewai_pdf_response(research_task, write_task):
     print(write_task)
     task1 = Task(
     max_iter=2,
-    description="""Conduct a comprehensive analysis. Identify the exact and accuracte answers""",
+    description="""Conduct a comprehensive analysis. Identify the exact and accurate answers""",
     expected_output= "Full analysis report in bullet points",
     agent=pdf_reasercher(research_task)
     )

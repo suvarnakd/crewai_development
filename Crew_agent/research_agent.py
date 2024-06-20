@@ -12,7 +12,7 @@ def researcher(research):
   research = Agent(
     role='Senior Research Analyst',
     goal=research,
-    backstory="""You work at a leading tech. Your expertise lies in reseraching 
+    backstory="""You work at a leading tech. Your expertise lies in researching 
     and getting the most relevant data.""",
     verbose=True,
     allow_delegation=False,
